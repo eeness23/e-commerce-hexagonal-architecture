@@ -11,4 +11,11 @@
 
     <artifactId>order-service-domain</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.enes.e-commerce</groupId>
+            <artifactId>commons-domain</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>

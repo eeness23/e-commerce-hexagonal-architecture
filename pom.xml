@@ -56,6 +56,131 @@
                 <version>${lombok.version}</version>
                 <optional>true</optional>
             </dependency>
+
+            <!--our services (begin) -->
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>commons-domain</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>commons-infra</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>order-service-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>order-service-domain</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>order-service-infra</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>payment-service-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>payment-service-domain</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>payment-service-infra</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>product-service-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>product-service-domain</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>product-service-infra</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>recommendation-service-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>recommendation-service-domain</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>recommendation-service-infra</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>search-service-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>search-service-domain</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>search-service-infra</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>shipping-service-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>shipping-service-domain</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>shipping-service-infra</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>user-service-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>user-service-domain</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.enes.e-commerce</groupId>
+                <artifactId>user-service-infra</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <!--our services (end) -->
         </dependencies>
     </dependencyManagement>
 
