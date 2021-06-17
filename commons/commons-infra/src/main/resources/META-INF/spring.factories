@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.enes.ecommerce.commons.infra.configuration.i18nConfiguration

@@ -1,0 +1,3 @@
+i18n:
+  base-path: i18n/messages
+  default-locale: tr
